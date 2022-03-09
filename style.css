@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    --primary-color: #1D3557;
+    color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.logo a, .menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.menu li{
+    list-style: none;
+    margin-right: 40px;
+    transition: transform 0.5s;
+    font-weight: 300;
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+
+}
+
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    box-shadow: 0 3px 3px 0 #000;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.hero{
+    height: 90vh;
+    background: url(image/hero.JPG) ;
+    background-size: cover;
+    background-color: #637899;
+    opacity: 0.9;
+    background-blend-mode: multiply;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    font-size: 3rem;
+    text-shadow: 2px 2px #222;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    padding: 0 80px 0 80px;
+    font-weight: 300;
+    text-shadow: 1px 1px #222;
+}
+
+.footer{
+    background: var(--primary-color);
+    display: flex;
+}
+
+.copyright, .address{
+    padding: 10px 40px 10px 40px;
+    font-weight: 200;
+}
+
+.body, .objectives{
+    background: #1D3557;
+    opacity: 0.95;
+    box-shadow: 0 3px 3px 0 #222;
+}
+
+.values{
+    background: #1D3557;
+    opacity: 0.95;
+}
+
+.first img, .second img{
+    width: 400px;
+    height: auto;
+    box-shadow: 5px 5px 10px #222;
+}
+
+.first-img, .second-img{
+    padding: 40px;
+}
+
+.first, .second{
+    display: flex;
+}
+
+.first p, .second p{
+    padding: 40px;
+}
+
+.objectives header, .values header{
+    padding: 40px;
+    font-size: 1.4rem;
+}
+
+.obj-body p, .values-body p{
+    margin: 0 80px 0 80px;
+    display: list-item;
+}
+
+.obj-body, .values-body{
+    padding: 0 0 20px 0;
+}
+
+

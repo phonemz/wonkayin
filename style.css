@@ -22,7 +22,14 @@ body{
     color: inherit;
 }
 
-
+.toggle img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    filter: invert(1);
+    display: none;
+}
 
 .menu li{
     list-style: none;
@@ -82,6 +89,7 @@ body{
     padding: 10px 40px 10px 40px;
     font-weight: 200;
 }
+/*About Page*/
 
 .body, .objectives{
     background: #1D3557;
@@ -126,6 +134,8 @@ body{
     padding: 0 0 20px 0;
 }
 
+/*Team Page*/
+
 .team-member img{
     width: 180px;
     height: 260px;
@@ -151,6 +161,8 @@ body{
     flex-direction: column;
 }
 
+/*Activity Page*/
+
 .activity img{
     width: 400px;
     height: auto;
@@ -173,6 +185,41 @@ body{
 .activity-body{
     background: var(--primary-color);
     opacity: 0.9;
+}
+
+@media (max-width: 768px){
+    .logo{
+        font-size: 1.4rem;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .toggle img{
+        display: block;
+    }
+
+    .hero .header{
+        font-size: 1.4rem;
+        text-align: left;
+        padding-left: 80px;
+    }
+    .hero p{
+        font-size: 1rem;
+        text-align: left;
+
+    }
+    .hero{
+        background: var(--primary-color);
+        opacity: 0.9;
+    }
+
+    .copyright, .address{
+        font-size: 0.8rem;
+    }
+
+    .
 }
 
 

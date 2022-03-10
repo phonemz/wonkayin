@@ -85,13 +85,13 @@ body{
 
 .body, .objectives{
     background: #1D3557;
-    opacity: 0.95;
+    opacity: 0.9;
     box-shadow: 0 3px 3px 0 #222;
 }
 
 .values{
     background: #1D3557;
-    opacity: 0.95;
+    opacity: 0.9;
 }
 
 .first img, .second img{
@@ -132,13 +132,11 @@ body{
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 2px 2px 20px 0 #333;
-    background-color: #1D3557;
-    opacity: 0.9;
-    background-blend-mode: multiply;
 }
 
 .team-body{
-    background: #637899;
+    background: #1D3557;
+    opacity: 0.9;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -152,6 +150,32 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.activity img{
+    width: 400px;
+    height: auto;
+}
+
+.activity{
+    padding: 40px;
+    display: flex;
+}
+
+.activity-text p, .activity header{
+    margin: 0 40px 40px 40px;
+    padding: 0;
+}
+
+.activity header{
+    font-size: 1.2rem;
+}
+
+.activity-body{
+    background: var(--primary-color);
+    opacity: 0.9;
+}
+
+
 
 
 

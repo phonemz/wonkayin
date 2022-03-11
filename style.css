@@ -91,6 +91,11 @@ body{
     text-decoration: none;
     color: inherit;
 }
+
+.copyright p, .address p{
+    text-decoration: none;
+    color: inherit;
+}
 /*About Page*/
 
 .body, .objectives{

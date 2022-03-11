@@ -36,7 +36,7 @@ body{
     background: url(image/close.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 35px;
 }
 .menu li{
     list-style: none;
@@ -341,10 +341,11 @@ body{
 
     .toggle{
         background-size: 25px;
+        background-position: center;
     }
 
     .toggle-close{
-        background-size: 25px;
+        background-size: 20px;
     }
 }
 

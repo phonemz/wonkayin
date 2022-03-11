@@ -309,7 +309,7 @@ body{
 
 @media (max-width: 500px){
     body{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .mobile-menu li{

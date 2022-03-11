@@ -88,6 +88,8 @@ body{
 .copyright, .address{
     padding: 10px 40px 10px 40px;
     font-weight: 200;
+    text-decoration: none;
+    color: inherit;
 }
 /*About Page*/
 

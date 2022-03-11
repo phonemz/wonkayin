@@ -337,6 +337,15 @@ body{
     .first img, .second img, .activity img{
         width: 300px;
         height: auto;
+    }
+
+    .toggle{
+        background-size: 25px;
+    }
+
+    .toggle-close{
+        background-size: 25px;
+    }
 }
 
 

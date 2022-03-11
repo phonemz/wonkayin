@@ -230,6 +230,8 @@ body{
 }
 
 @media (max-width: 900px){
+
+
     .first, .second{
         display: flex;
         flex-direction: column;
@@ -251,6 +253,30 @@ body{
     .activity-text p, .activity header{
         margin: 10px 0 20px 0;
         padding: 0;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        font-size: 12px;
+    }
+
+    .hero .header, .hero p{
+        padding-left: 40px ;
+    }
+
+    .copyright, .address{
+        font-size: 0.6rem;
+    }
+
+    .obj-body p, .values-body p{
+        margin: 0 40px 0 40px;
+        display: list-item;
+    }
+
+    .team-member img{
+        width: 140px;
+        height: 200px;
     }
 }
 

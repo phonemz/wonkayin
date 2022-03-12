@@ -6,9 +6,9 @@ toggle.addEventListener('click', () => {
     toggle.classList.toggle('toggle-close')
 })
 
-const hero = document.querySelector('.hero')
+const activityBody = document.querySelector('.activity-body')
 
-hero.addEventListener('click', () => {
+activityBody.addEventListener('click', () => {
     menu.classList.remove('active')
     toggle.classList.remove('toggle-close')
 })

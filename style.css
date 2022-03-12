@@ -141,7 +141,7 @@ body{
 }
 /*About Page*/
 
-.body, .objectives{
+.about-body, .objectives{
     background: #1D3557;
     opacity: 0.9;
     box-shadow: 0 3px 3px 0 #222;
